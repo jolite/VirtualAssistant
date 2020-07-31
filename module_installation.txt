@@ -1,6 +1,4 @@
 pyttsx3
 SpeechRecognition
 wikipedia
-pypiwin32
-pywin32
-PyAudio
+
