@@ -7,7 +7,8 @@ import os
 import datetime
 import smtplib
 
-engine = pyttsx3.init('sapi5')
+#engine = pyttsx3.init('sapi5')
+engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 #print(voices[1].id)
 engine.setProperty('voice', voices[1].id)
