@@ -73,16 +73,17 @@ if __name__ == "__main__":
             webbrowser.open("stackoverflow.com")
         
         elif 'play music' in query:
-            music_dir = 'D:\\Abbyy'
+            music_dir = 'give your own path of audios or videos'
             videos = os.listdir(music_dir)
             print(videos)
             os.startfile(os.path.join(music_dir,videos[0]))
+            
         elif 'time' in query:
             strfTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"Sir, the time is {strfTime}")
         
         elif 'open code' in query:
-            codePath = "C:\\Users\\manishb\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "Give your own path for any software installed on your machine"
             os.startfile(codePath)
 
         elif 'exit' in query:
